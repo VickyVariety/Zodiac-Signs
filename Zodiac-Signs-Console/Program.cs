@@ -85,7 +85,7 @@ namespace Zodiac_Signs_Console
         {
             Console.WriteLine("Your Zodiac sign is: ");
             Console.WriteLine("Sagittarius\n");
-            Console.WriteLine("STRENGHTS\nGenerous, idealistic, great sense of humorn");
+            Console.WriteLine("STRENGHTS\nGenerous, idealistic, great sense of humor\n");
             Console.WriteLine("WEAKNESSES\nPromises more than can deliver, very impatient, will say anything no matter how undiplomatic\n");
         }
         static void ErrorMessage()
