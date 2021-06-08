@@ -1,0 +1,1 @@
+A console app which will tell you your Zodiac sign on input of month and day of birth. 
