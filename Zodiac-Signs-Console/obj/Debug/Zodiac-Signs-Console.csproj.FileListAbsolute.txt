@@ -5,3 +5,10 @@ C:\Users\Tonys\OneDrive\Desktop\Code Random\Zodiac-Signs\Zodiac-Signs-Console\ob
 C:\Users\Tonys\OneDrive\Desktop\Code Random\Zodiac-Signs\Zodiac-Signs-Console\obj\Debug\Zodiac-Signs-Console.exe
 C:\Users\Tonys\OneDrive\Desktop\Code Random\Zodiac-Signs\Zodiac-Signs-Console\obj\Debug\Zodiac-Signs-Console.pdb
 C:\Users\Tonys\OneDrive\Desktop\Code Random\Zodiac-Signs\Zodiac-Signs-Console\obj\Debug\Zodiac-Signs-Console.csproj.AssemblyReference.cache
+C:\Users\Vicky\Zodiac-Signs\Zodiac-Signs-Console\bin\Debug\Zodiac-Signs-Console.exe.config
+C:\Users\Vicky\Zodiac-Signs\Zodiac-Signs-Console\bin\Debug\Zodiac-Signs-Console.exe
+C:\Users\Vicky\Zodiac-Signs\Zodiac-Signs-Console\bin\Debug\Zodiac-Signs-Console.pdb
+C:\Users\Vicky\Zodiac-Signs\Zodiac-Signs-Console\obj\Debug\Zodiac-Signs-Console.csprojAssemblyReference.cache
+C:\Users\Vicky\Zodiac-Signs\Zodiac-Signs-Console\obj\Debug\Zodiac-Signs-Console.csproj.CoreCompileInputs.cache
+C:\Users\Vicky\Zodiac-Signs\Zodiac-Signs-Console\obj\Debug\Zodiac-Signs-Console.exe
+C:\Users\Vicky\Zodiac-Signs\Zodiac-Signs-Console\obj\Debug\Zodiac-Signs-Console.pdb

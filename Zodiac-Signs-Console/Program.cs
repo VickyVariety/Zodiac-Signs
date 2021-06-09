@@ -1,99 +1,214 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Zodiac_Signs_Console
 {
     class Program
     {
-        static void Capricorn()
+        static List<string> Capricorn()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Capricorn\n");
-            Console.WriteLine("STRENGHTS\nResponsible, disciplined, self-control, good managers\n");
-            Console.WriteLine("WEAKNESSES\nKnow-it-all, unforgiving, condescending, expecting the worst\n");
+            return new List<string>()
+            {
+                "Capricorn\n",
+                "STRENGHTS\nResponsible, disciplined, self-control, good managers\n",
+                "WEAKNESSES\nKnow-it-all, unforgiving, condescending, expecting the worst\n"
+            };
         }
-        static void Aquarius()
-        {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Aquarius\n");
-            Console.WriteLine("STRENGHTS\nProgressive, original, independent, humanitarian\n");
-            Console.WriteLine("WEAKNESSES\nRuns from emotional expression, temperamental, uncompromising, aloof\n");
+        static List<string> Aquarius()
+        { 
+            return new List<string>()
+            {
+                "Aquarius\n",
+                "STRENGHTS\nProgressive, original, independent, humanitarian\n",
+                "WEAKNESSES\nRuns from emotional expression, temperamental, uncompromising, aloof\n"
+            };
         }
-        static void Pisces()
+        static List<string> Pisces()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Pisces\n");
-            Console.WriteLine("STRENGHTS\nCompassionate, artistic, intuitive, gentle, wise, musical\n");
-            Console.WriteLine("WEAKNESSES\nFearful, overly trusting, sad, desire to escape reality, can be a victim or a martyr\n");
+            return new List<string>()
+            {
+            "Pisces\n",
+            "STRENGHTS\nCompassionate, artistic, intuitive, gentle, wise, musical\n",
+            "WEAKNESSES\nFearful, overly trusting, sad, desire to escape reality, can be a victim or a martyr\n"
+            };
         }
-        static void Aries()
+        static List<string> Aries()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Aries\n");
-            Console.WriteLine("STRENGHTS\nCourageous, determined, confident, enthusiastic, optimistic, honest, passionate\n");
-            Console.WriteLine("WEAKNESSES\nImpatient, moody, short-tempered, impulsive, aggressive\n");
+            return new List<string>()
+            {
+            "Aries\n",
+            "STRENGHTS\nCourageous, determined, confident, enthusiastic, optimistic, honest, passionate\n",
+            "WEAKNESSES\nImpatient, moody, short-tempered, impulsive, aggressive\n"
+            };
         }
-        static void Taurus()
+        static List<string> Taurus()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Taurus\n");
-            Console.WriteLine("STRENGHTS\nReliable, patient, practical, devoted, responsible, stable\n");
-            Console.WriteLine("WEAKNESSES\nStubborn, possessive, uncompromising\n");
+            return new List<string>()
+            {
+            "Taurus\n",
+            "STRENGHTS\nReliable, patient, practical, devoted, responsible, stable\n",
+            "WEAKNESSES\nStubborn, possessive, uncompromising\n"
+            };
         }
-        static void Gemini()
+        static List<string> Gemini()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Gemini\n");
-            Console.WriteLine("STRENGHTS\nGentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas\n");
-            Console.WriteLine("WEAKNESSES\nNervous, inconsistent, indecisive\n");
+            return new List<string>()
+            {
+            "Gemini\n",
+            "STRENGHTS\nGentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas\n",
+            "WEAKNESSES\nNervous, inconsistent, indecisive\n"
+            };
         }
-        static void Cancer()
+        static List<string> Cancer()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Cancer\n");
-            Console.WriteLine("STRENGHTS\nTenacious, highly imaginative, loyal, emotional, sympathetic, persuasive\n");
-            Console.WriteLine("WEAKNESSES\nMoody, pessimistic, suspicious, manipulative, insecure\n");
+            return new List<string>()
+            {            
+            "Cancer\n",
+            "STRENGHTS\nTenacious, highly imaginative, loyal, emotional, sympathetic, persuasive\n",
+            "WEAKNESSES\nMoody, pessimistic, suspicious, manipulative, insecure\n"
+            };
         }
-        static void Leo()
+        static List<string> Leo()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Leo\n");
-            Console.WriteLine("STRENGHTS\nCreative, passionate, generous, warm-hearted, cheerful, humorous\n");
-            Console.WriteLine("WEAKNESSES\nArrogant, stubborn, self-centered, lazy, inflexible\n");
+            return new List<string>()
+            {
+            "Leo\n",
+            "STRENGHTS\nCreative, passionate, generous, warm-hearted, cheerful, humorous\n",
+            "WEAKNESSES\nArrogant, stubborn, self-centered, lazy, inflexible\n"
+            };
         }
-        static void Virgo()
+        static List<string> Virgo()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Virgo\n");
-            Console.WriteLine("STRENGHTS\nLoyal, analytical, kind, hardworking, practical\n");
-            Console.WriteLine("WEAKNESSES\nShyness, worry, overly critical of self and others, all work and no play\n");
+            return new List<string>()
+            {
+            "Virgo\n",
+            "STRENGHTS\nLoyal, analytical, kind, hardworking, practical\n",
+            "WEAKNESSES\nShyness, worry, overly critical of self and others, all work and no play\n"
+            };
         }
-        static void Libra()
+        static List<string> Libra()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Libra\n");
-            Console.WriteLine("STRENGHTS\nCooperative,diplomatic, gracious, fair-minded, social\n");
-            Console.WriteLine("WEAKNESSES\nIndecisive, avoids confrontations, will carry a grudge, self-pity\n");
+            return new List<string>()
+            {
+            "Libra\n",
+            "STRENGHTS\nCooperative,diplomatic, gracious, fair-minded, social\n",
+            "WEAKNESSES\nIndecisive, avoids confrontations, will carry a grudge, self-pity\n"
+            };
         }
-        static void Scorpio()
+        static List<string> Scorpio()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Scorpio\n");
-            Console.WriteLine("STRENGHTS\nResourceful, brave, passionate, stubborn, a true friend\n");
-            Console.WriteLine("WEAKNESSES\nDistrusting, jealous, secretive, violent\n");
+            return new List<string>()
+            {
+            "Scorpio\n",
+            "STRENGHTS\nResourceful, brave, passionate, stubborn, a true friend\n",
+            "WEAKNESSES\nDistrusting, jealous, secretive, violent\n"
+            };
         }
-        static void Sagittarius()
+        static List<string> Sagittarius()
         {
-            Console.WriteLine("Your Zodiac sign is: ");
-            Console.WriteLine("Sagittarius\n");
-            Console.WriteLine("STRENGHTS\nGenerous, idealistic, great sense of humor\n");
-            Console.WriteLine("WEAKNESSES\nPromises more than can deliver, very impatient, will say anything no matter how undiplomatic\n");
+            return new List<string>()
+            {
+            "Sagittarius\n",
+            "STRENGHTS\nGenerous, idealistic, great sense of humor\n",
+            "WEAKNESSES\nPromises more than can deliver, very impatient, will say anything no matter how undiplomatic\n"
+            };
         }
-        static void ErrorMessage()
+        /*static void ErrorMessage()
         {
+        Your Zodiac sign is: 
             Console.WriteLine("Sorry, that month\\day is not valid. [Press ENTER to start over]");
             Console.ReadLine();
-            Console.Clear();
+            Console.Clear();d
             MyZodiac();
+        }*/
+        static bool ParseInput(out List<string> result, string myMonth, int myDay)
+        {
+            result = new List<string>();
+            
+            switch (myMonth)
+            {
+                case "JANUARY":
+                    if (myDay < 23)
+                        result = Capricorn();
+                    if (myDay > 22 && myDay < 32)
+                        result = Aquarius();
+                    break;
+                case "FEBRUARY":
+                    if (myDay < 23)
+                        result = Capricorn();
+                    if (myDay > 22 && myDay < 30)
+                        result = Aquarius();
+                    break;
+                case "MARS":
+                    if (myDay < 21)
+                        result = Pisces();
+                    if (myDay > 20 && myDay < 32)
+                        result = Aries();
+                    break;
+                case "APRIL":
+                    if (myDay < 20)
+                        result = Aries();
+                    if (myDay > 19 && myDay < 31)
+                        result = Taurus();
+                    break;
+                case "MAY":
+                    if (myDay < 21)
+                        result = Taurus();
+                    if (myDay > 20 && myDay < 32)
+                        result = Gemini();
+                    break;
+                case "JUNE":
+                    if (myDay < 22)
+                        result = Gemini();
+                    if (myDay > 21 && myDay < 31)
+                        result = Cancer();
+                    break;
+                case "JULY":
+                    if (myDay < 23)
+                        result = Cancer();
+                    if (myDay > 22 && myDay < 32)
+                        result = Leo();
+                    break;
+                case "AUGUST":
+                    if (myDay < 23)
+                        result = Leo();
+                    if (myDay > 22 && myDay < 32)
+                        result = Virgo();
+                    break;
+                case "SEPTEMBER":
+                    if (myDay < 23)
+                        result = Virgo();
+                    if (myDay > 22 && myDay < 31)
+                        result = Libra();
+                    break;
+                case "OCTOBER":
+                    if (myDay < 24)
+                        result = Libra();
+                    if (myDay > 23 && myDay < 32)
+                        result = Scorpio();
+                    break;
+                case "NOVEMBER":
+                    if (myDay < 22)
+                        result = Scorpio();
+                    if(myDay > 21 && myDay < 31)
+                        result = Sagittarius();
+                    break;
+                case "DECEMBER":
+                    if (myDay < 22)
+                        result = Sagittarius();
+                    if(myDay > 21 && myDay < 32)
+                        result = Capricorn();
+                    break;
+            }
+            if (result.Count == 0)
+            {
+                result = new List<string>()
+                {
+                    "Sorry, that month\\day is not valid. [Press ENTER to start over]"
+                };
+                return false;
+            }
+            return true;
         }
         static void MyZodiac()
         {
@@ -104,184 +219,16 @@ namespace Zodiac_Signs_Console
             Console.WriteLine("Enter your day of birth: ");
             int myDay = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
-
-            // Months and corresponding Zodiac sign            
-            switch (myMonth)
+            if (!ParseInput(out List<string> result, myMonth, myDay))
             {
-                case "JANUARY":
-                    if (myDay < 23)
-                    {
-                        Capricorn();
-                    }
-                    else if (myDay > 22 && myDay < 32)
-                    {
-                        Aquarius();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "FEBRUARY":
-                    if (myDay < 19)
-                    {
-                        Aquarius();
-                    }
-                    else if (myDay > 18 && myDay < 30)
-                    {
-                        Pisces();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "MARS":
-                    if (myDay < 21)
-                    {
-                        Pisces();
-                    }
-                    else if(myDay > 20 && myDay < 32)
-                    {                        
-                        Aries();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "APRIL":
-                    if (myDay < 20)
-                    {
-                        Aries();
-                    }
-                    else if (myDay > 19 && myDay < 31)
-                    {
-                        Taurus();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "MAY":
-                    if (myDay < 21)
-                    {
-                        Taurus();
-                    }
-                    else if (myDay > 20 && myDay < 32)
-                    {
-                        Gemini();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "JUNE":
-                    if (myDay < 22)
-                    {
-                        Gemini();
-                    }
-                    else if (myDay > 21 && myDay < 31)
-                    {
-                        Cancer();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "JULY":
-                    if (myDay < 23)
-                    {
-                        Cancer();
-                    }
-                    else if (myDay > 22 && myDay < 32)
-                    {
-                        Leo();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "AUGUST":
-                    if (myDay < 23)
-                    {
-                        Leo();
-                    }
-                    else if (myDay > 22 && myDay < 32)
-                    {
-                        Virgo();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "SEPTEMBER":
-                    if (myDay < 23)
-                    {
-                        Virgo();
-                    }
-                    else if (myDay > 22 && myDay < 31)
-                    {
-                        Libra();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "OCTOBER":
-                    if (myDay < 24)
-                    {
-                        Libra();
-                    }
-                    else if (myDay > 23 && myDay < 32)
-                    {
-                        Scorpio();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "NOVEMBER":
-                    if (myDay < 22)
-                    {
-                        Scorpio();
-                    }
-                    else if (myDay > 21 && myDay < 31)
-                    {
-                        Sagittarius();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                case "DECEMBER":
-                    if (myDay < 22)
-                    {
-                        Sagittarius();
-                    }
-                    else if (myDay > 21 && myDay < 32)
-                    {
-                        Capricorn();
-                    }
-                    else
-                    {
-                        ErrorMessage();
-                    }
-                    break;
-                default:
-                    {
-                        ErrorMessage();
-                    }
-                    break;
+                PrintResult(result);
+                return;
             }
+            result.Insert(0, "Your Zodiac sign is: ");
+            PrintResult(result);
+        }
+        static void PrintResult(List<string> result) {
+            Console.WriteLine(String.Join("\n", result));
         }
         static void Main()
         {
